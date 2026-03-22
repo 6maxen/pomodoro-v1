@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+#timer-section {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+#timer {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(24, 24, 24);
+    padding: 1rem;
+    border: .1rem solid rgba(245, 245, 245, 0.285);
+    border-radius: .5rem;
+}
+
+#button-section {
+    padding: .4rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#start-btn,
+#pause-btn,
+#restart-btn {
+    padding: .3rem;
+    color: whitesmoke;
+    background-color: rgb(24, 24, 24);
+    padding: .5rem;
+    border: .1rem solid rgba(245, 245, 245, 0.285);
+    border-radius: .3rem;
+}
+
+
+#start-btn:hover,
+#pause-btn:hover,
+#restart-btn:hover {
+    background-color: rgb(218, 218, 218);
+    color: black;
+}
+
+#start-btn:disabled,
+#pause-btn:disabled,
+#restart-btn:disabled {
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(55, 55, 55, 0.514);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding: 1rem;
+    background-color: rgb(20, 20, 20);
+}
