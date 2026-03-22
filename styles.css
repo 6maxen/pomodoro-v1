@@ -13,6 +13,7 @@ body {
 }
 
 header {
+    margin-top: auto;
     display: flex;
     justify-content: center;
     padding: 1rem 0;
